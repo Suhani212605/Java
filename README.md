@@ -4,7 +4,9 @@ import java.util.ArrayList;
 public class Main
 
 {
+
 	public static void main(String[] args)
+
 	{
 		
         ArrayList<String> a1=new ArrayList<>();
@@ -17,5 +19,7 @@ public class Main
         System.out.println("After removing 0th index element : "+a1);
     }
 }
+
+
 Output : 
 ![image](https://github.com/user-attachments/assets/478c8898-fcd2-4f58-bd14-0fcc7d6b022a)
