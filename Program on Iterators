@@ -1,0 +1,20 @@
+import java.util.*;
+public class iteratorProgram
+{
+    public static void main(String arg[])
+    {
+        ArrayList<Integer> al=new ArrayList<>();
+        al.add(1);
+        al.add(2);
+        al.add(3);
+        al.add(4);
+        al.add(5);
+        Iterator<Integer> it=al.iterator();
+        System.out.println("Array Elements are : ");
+        while(it.hasNext())
+        {
+            System.out.println(it.next());
+        }
+    }
+}
+
