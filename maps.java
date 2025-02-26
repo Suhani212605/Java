@@ -4,7 +4,7 @@ public class maps
 {
     public static void main(String arg[])
     {
-        Map<Integer,String> ft=new TreeMap<>();
+        Map<Integer,String> ft=new HashMap<>();
         ft.put(1,"Apple");
         ft.put(2,"Orange");
         ft.put(3,"Bannana");
