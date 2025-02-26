@@ -7,8 +7,8 @@ public class maps
         LinkedHashMap<Integer,String> ft=new LinkedHashMap<>();
         ft.put(1,"Apple");
         ft.put(2,"Orange");
-        ft.put(4,"Bannana");
-        ft.put(3,"Watermellon");
+        ft.put(3,"Bannana");
+        ft.put(4,"Watermellon");
         System.out.println("Fruits : "+ft);
         System.out.println("3rd value of fruits Array : "+ft.get(3));
         ft.remove(3);
