@@ -1,0 +1,30 @@
+import java.util.*;
+class student
+{
+    String name;
+    int id;
+    String major;
+    public student(String name,int id,String major)
+    {
+        this.name=name;
+        this.id=id;
+        this.major=major;
+    }
+}
+public class CustomerArrayList 
+{
+    public static void main(String arg[])
+    {
+        ArrayList<student> studentList=new ArrayList<>();
+        student student1=new student("ALice",101,"CS");
+        student student2=new student("Bob",102,"EC");
+        student student3=new student("Rose",103,"ISE");
+        studentList.add(student1);
+        studentList.add(student2);
+        studentList.add(student3);
+        for(student std : studentList)
+        {
+            System.out.println("Name : "+std.name+", ID : "+std.id+" , Major : "+std.major);
+        }
+    }    
+}
